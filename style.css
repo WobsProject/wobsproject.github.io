@@ -1,0 +1,26 @@
+/* body {
+  min-height: 2000px;
+} */
+.jumbotron {
+  padding-top: 6rem;
+  /* padding: 2rem 1rem; */
+  background-color: #c2b59b;
+}
+#projects {
+  background-color: #c2b59b;
+}
+#btn-project {
+  background-color: #594a42;
+  color: white;
+}
+#btn-project:hover {
+  background-color: #c2b59b;
+  color: #594a42;
+}
+#icon1:hover #icon2:hover #icon3:hover #icon4:hover {
+  background-color: #c2b59b;
+  color: #594a42;
+}
+section {
+  padding-top: 5rem;
+}
