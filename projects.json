@@ -19,5 +19,12 @@
     "desc": "Temperature & Humidity Monitoring (MQTT) – An IoT system for real-time monitoring of environmental data using MQTT protocol. The device continuously sends temperature and humidity readings to the server, which can be visualized on a dashboard or integrated into smart automation systems.",
     "img": "img/product-4.jpg",
     "link": "https://github.com/WobsProject/Temperature-and-Humidity-Monitor-MQTT.git"
+  },
+  {
+    "category": "Client",
+    "title": "Battery Signal Manipulator",
+    "desc": "",
+    "img": "",
+    "link": ""
   }
 ]
