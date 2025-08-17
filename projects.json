@@ -1,23 +1,23 @@
 [
   {
     "category": "Open Source",
-    "title": "ESP32 IoT Logger",
-    "desc": "IoT data logger with firmware, PCB, and flowchart (open source).",
-    "img": "img/product-1.jpg",
-    "link": "https://github.com/WobsProject"
+    "title": "Room Lamp Control",
+    "desc": "Room Lamp Control – A smart lamp control system built with Arduino and Bluetooth communication. The device can be operated manually via physical switch or remotely through a mobile app.",
+    "img": "img/product-2.jpg",
+    "link": "https://github.com/WobsProject/Room-Lamp-Control.git"
   },
   {
     "category": "Client",
     "title": "QR Code Presence System",
     "desc": "QR Code Presence System – A modern attendance system using QR Codes. Users can scan a QR code via their smartphone to mark presence, with data automatically stored in the database and displayed in real-time on the dashboard.",
-    "img": "img/product-2.jpg",
+    "img": "img/product-1.jpg",
     "link": null
   },
   {
-    "category": "Marketplace",
-    "title": "Smart Home Kit",
+    "category": "Open Source",
+    "title": "Tempereture and Humidity Monitor",
     "desc": "Smart home IoT kit available for purchase on the marketplace.",
     "img": "img/product-4.jpg",
-    "link": "https://example.com"
+    "link": "https://github.com/WobsProject/Temperature-and-Humidity-Monitor-MQTT.git"
   }
 ]
