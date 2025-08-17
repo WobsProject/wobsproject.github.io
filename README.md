@@ -17,7 +17,7 @@ This portfolio showcases my works as a **Hardware Engineer** & **IoT Enthusiast*
 ---
 
 ## 📸 Preview
-![Portfolio Preview](img/product-1.jpg)
+![Portfolio Preview](img/image.png)
 
 ---
 
