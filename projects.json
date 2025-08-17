@@ -9,7 +9,7 @@
   {
     "category": "Client",
     "title": "QR Code Presence System",
-    "desc": "ERP development tailored to client workflow, private source code.",
+    "desc": "QR Code Presence System – A modern attendance system using QR Codes. Users can scan a QR code via their smartphone to mark presence, with data automatically stored in the database and displayed in real-time on the dashboard.",
     "img": "img/product-2.jpg",
     "link": null
   },
