@@ -1,0 +1,23 @@
+[
+  {
+    "category": "Open Source",
+    "title": "ESP32 IoT Logger",
+    "desc": "IoT data logger with firmware, PCB, and flowchart (open source).",
+    "img": "img/product-1.jpg",
+    "link": "https://github.com/WobsProject"
+  },
+  {
+    "category": "Client",
+    "title": "Custom ERP System",
+    "desc": "ERP development tailored to client workflow, private source code.",
+    "img": "img/product-2.jpg",
+    "link": null
+  },
+  {
+    "category": "Marketplace",
+    "title": "Smart Home Kit",
+    "desc": "Smart home IoT kit available for purchase on the marketplace.",
+    "img": "img/product-3.jpg",
+    "link": "https://example.com"
+  }
+]

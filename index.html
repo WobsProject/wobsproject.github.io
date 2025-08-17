@@ -34,14 +34,19 @@
 
     <!-- Hero -->
     <section class="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-blue-100 to-purple-100 dark:from-gray-800 dark:to-gray-700 px-4">
-      <h2 data-en="Welcome to Wobs Project" data-id="Selamat Datang di Wobs Project" class="text-4xl md:text-6xl font-bold mb-4 lang">Welcome to <span class="text-blue-600 dark:text-blue-400">Wobs Project</span></h2>
+      <h2 data-en="Welcome to Wobs Project" data-id="Selamat Datang di Wobs Project" class="text-4xl md:text-6xl font-bold mb-4 lang">
+        Welcome to
+        <span class="text-blue-600 dark:text-blue-400">Wobs Project</span>
+      </h2>
       <p
         class="text-lg md:text-2xl mb-6 max-w-2xl lang"
         data-en="A portfolio of projects I’ve developed.<br /> Managed by <span class='font-semibold text-blue-600 dark:text-blue-400'>Muhammad Riska Wibowo</span> – Hardware Engineer & IoT Enthusiast."
         data-id="Portofolio proyek-proyek yang saya kembangkan.<br /> Dikelola oleh <span class='font-semibold text-blue-600 dark:text-blue-400'>Muhammad Riska Wibowo</span> – Hardware Engineer & IoT Enthusiast."
       >
         A portfolio of projects I’ve developed.<br />
-        Managed by <span class="font-semibold text-blue-600 dark:text-blue-400">Muhammad Riska Wibowo</span> – Hardware Engineer & IoT Enthusiast.
+        Managed by
+        <span class="font-semibold text-blue-600 dark:text-blue-400">Muhammad Riska Wibowo</span>
+        – Hardware Engineer & IoT Enthusiast.
       </p>
       <div class="space-x-4">
         <a href="#projects" data-en="See Projects" data-id="Lihat Proyek" class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition lang">See Projects</a>
@@ -57,8 +62,7 @@
         data-en="<span class='font-semibold'>Wobs Project</span> is my personal branding for managing and showcasing my works. I, <span class='font-semibold'>Muhammad Riska Wibowo</span>, a Hardware Engineer and IoT Enthusiast, focus on developing modern, scalable, and user-friendly devices. Through Wobs Project, I share creative solutions born from the latest technology experiments."
         data-id="<span class='font-semibold'>Wobs Project</span> adalah branding personal yang saya gunakan untuk mengelola dan menampilkan karya-karya saya. Saya, <span class='font-semibold'>Muhammad Riska Wibowo</span>, seorang Hardware Engineer dan IoT Enthusiast, memiliki fokus pada pengembangan perangkat modern, scalable, dan user-friendly. Melalui Wobs Project, saya ingin berbagi solusi kreatif yang lahir dari eksperimen teknologi terbaru."
       >
-        <span class="font-semibold">Wobs Project</span> is my personal branding for managing and showcasing my works. I, <span class="font-semibold">Muhammad Riska Wibowo</span>, a Hardware Engineer and IoT Enthusiast, focus on developing
-        modern, scalable, and user-friendly devices. Through Wobs Project, I share creative solutions born from the latest technology experiments.
+        <span class="font-semibold">Wobs Project</span> is my personal branding…
       </p>
     </section>
 
@@ -76,33 +80,10 @@
     </section>
 
     <!-- Projects -->
-    <section id="projects" class="container mx-auto py-20 px-6">
-      <h3 class="text-3xl font-bold mb-12 text-center lang" data-en="Projects" data-id="Proyek">Projects</h3>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-white dark:bg-gray-800 rounded-xl shadow hover:shadow-xl transition overflow-hidden">
-          <img src="img/product-1.jpg" alt="Project 1" class="w-full h-48 object-cover" />
-          <div class="p-6">
-            <h4 class="font-bold mb-2">Project 1</h4>
-            <p class="text-sm text-gray-600 dark:text-gray-400 mb-4 lang" data-en="Short project description." data-id="Deskripsi singkat proyek.">Short project description.</p>
-            <a href="#" class="text-blue-600 dark:text-blue-400 hover:underline lang" data-en="See Details →" data-id="Lihat Detail →">See Details →</a>
-          </div>
-        </div>
-        <div class="bg-white dark:bg-gray-800 rounded-xl shadow hover:shadow-xl transition overflow-hidden">
-          <img src="img/product-2.jpg" alt="Project 2" class="w-full h-48 object-cover" />
-          <div class="p-6">
-            <h4 class="font-bold mb-2">Project 2</h4>
-            <p class="text-sm text-gray-600 dark:text-gray-400 mb-4 lang" data-en="Short project description." data-id="Deskripsi singkat proyek.">Short project description.</p>
-            <a href="#" class="text-blue-600 dark:text-blue-400 hover:underline lang" data-en="See Details →" data-id="Lihat Detail →">See Details →</a>
-          </div>
-        </div>
-        <div class="bg-white dark:bg-gray-800 rounded-xl shadow hover:shadow-xl transition overflow-hidden">
-          <img src="img/product-4.png" alt="Project 3" class="w-full h-48 object-cover" />
-          <div class="p-6">
-            <h4 class="font-bold mb-2">Project 3</h4>
-            <p class="text-sm text-gray-600 dark:text-gray-400 mb-4 lang" data-en="Short project description." data-id="Deskripsi singkat proyek.">Short project description.</p>
-            <a href="#" class="text-blue-600 dark:text-blue-400 hover:underline lang" data-en="See Details →" data-id="Lihat Detail →">See Details →</a>
-          </div>
-        </div>
+    <section id="projects" class="bg-white dark:bg-gray-900 py-20 px-6 transition">
+      <div class="container mx-auto">
+        <h3 class="text-3xl font-bold text-center mb-12 lang" data-en="Projects" data-id="Proyek">Projects</h3>
+        <div id="projectContainer" class="grid md:grid-cols-3 gap-8"></div>
       </div>
     </section>
 
@@ -140,7 +121,6 @@
         html.classList.add("dark");
         toggle.textContent = "☀️";
       }
-
       toggle.addEventListener("click", () => {
         html.classList.toggle("dark");
         if (html.classList.contains("dark")) {
@@ -159,15 +139,35 @@
         });
         localStorage.setItem("lang", lang);
       }
-
-      // Load saved language or default English
       const savedLang = localStorage.getItem("lang") || "en";
       langToggle.value = savedLang;
       setLanguage(savedLang);
+      langToggle.addEventListener("change", (e) => setLanguage(e.target.value));
 
-      langToggle.addEventListener("change", (e) => {
-        setLanguage(e.target.value);
-      });
+      // Load projects.json
+      fetch("projects.json")
+        .then((res) => res.json())
+        .then((data) => {
+          const container = document.getElementById("projectContainer");
+          data.forEach((p) => {
+            container.innerHTML += `
+              <div class="relative bg-white dark:bg-gray-800 rounded-xl shadow hover:shadow-xl transition overflow-hidden">
+                <span class="absolute top-2 right-2 ${p.category === "Open Source" ? "bg-blue-100 text-blue-700" : p.category === "Client" ? "bg-green-100 text-green-700" : "bg-purple-100 text-purple-700"} text-xs px-2 py-1 rounded">${
+              p.category
+            }</span>
+                <img src="${p.img}" alt="${p.title}" class="w-full h-48 object-cover" />
+                <div class="p-6">
+                  <h5 class="font-bold mb-2">${p.title}</h5>
+                  <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">${p.desc}</p>
+                  ${p.link ? `<a href="${p.link}" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">View →</a>` : `<span class="inline-block text-gray-500 dark:text-gray-400 text-xs">Private Project</span>`}
+                </div>
+              </div>
+            `;
+          });
+        })
+        .catch((err) => {
+          console.error("Gagal load projects.json:", err);
+        });
     </script>
   </body>
 </html>
