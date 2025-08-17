@@ -25,5 +25,5 @@ This portfolio showcases my works as a **Hardware Engineer** & **IoT Enthusiast*
 Clone this repository and open `index.html` with a live server:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/WobsProject/wobsproject.github.io.git
+cd wobsproject.github.io
