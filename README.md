@@ -3,7 +3,7 @@
 Welcome to my personal portfolio repository.  
 This portfolio showcases my works as a **Hardware Engineer** & **IoT Enthusiast**, including open-source projects, client works, and marketplace-ready products.  
 
-🔗 **Live Website:** [Wobs Project Portfolio](https://your-username.github.io/your-repo/)  
+🔗 **Live Website:** [Wobs Project Portfolio](https://wobsproject.github.io/)  
 
 ---
 
